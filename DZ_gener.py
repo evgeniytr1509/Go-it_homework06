@@ -12,7 +12,7 @@ def sort_dir(d):
     for file in test:
         if file.endswith('jpg') == True:
             print ("file - Picture")
-            source_path = ".jpg"
+            source_path = ".jpg" # выбор всех файлов формата jpg
             if path.exists(source_path):
                 destination_path = "f:\\Dell\test_dir\picture" # место перемещения файла
                 new_location = shutil.move(source_path, destination_path) # перемещения файла
